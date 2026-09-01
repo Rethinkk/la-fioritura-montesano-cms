@@ -7,7 +7,7 @@
   --soft: #f4f3ef;
   --gold: #b79a38;
   --page-width: min(1200px, calc(100% - 156px));
-  --content-width: min(916px, calc(100% - 156px));
+  --content-width: var(--page-width);
   --serif: "Cormorant Garamond", "Times New Roman", serif;
   --sans: "Inter", Arial, sans-serif;
 }
