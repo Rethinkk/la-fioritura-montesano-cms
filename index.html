@@ -8,25 +8,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=start-layout-1">
   </head>
   <body>
-    <aside class="explore" aria-label="Site navigation">
-      <div class="explore__line"></div>
-      <p id="nav-eyebrow">EXPLORE</p>
-      <nav id="navigation"></nav>
-    </aside>
-
     <main>
       <section class="hero" aria-label="Montesano landscape">
         <video id="hero-video" autoplay muted loop playsinline poster="assets/hero-field.png"></video>
         <img id="hero-image" src="assets/hero-field.png" alt="">
+        <div class="hero__overlay">
+          <div class="hero__mark" aria-hidden="true"></div>
+          <p class="hero__title">GROWING WITH THE LAND</p>
+          <p class="hero__place">LA FIORITURA DI MONTESANO, SICILY</p>
+          <div class="hero__rule"></div>
+          <p class="hero__line">A long term story from the Sicilian countryside.</p>
+        </div>
       </section>
 
-      <section class="land section-pad" id="the-land">
-        <p class="kicker" id="land-kicker"></p>
-        <h1 id="land-title"></h1>
-        <div class="intro-copy" id="land-intro"></div>
+      <header class="explore" aria-label="Site navigation">
+        <p id="nav-eyebrow">EXPLORE</p>
+        <div class="explore__line"></div>
+        <nav id="navigation"></nav>
+      </header>
+
+      <section class="land-card" id="the-land">
+        <div class="land-card__inner">
+          <h1 id="land-title"></h1>
+          <p class="kicker" id="land-kicker"></p>
+          <div class="intro-copy" id="land-intro"></div>
+        </div>
       </section>
 
       <section class="story-flow" id="story-flow"></section>
@@ -44,6 +53,6 @@
     </main>
 
     <a class="cms-link" href="admin.html" aria-label="Open CMS">CMS</a>
-    <script src="script.js"></script>
+    <script src="script.js?v=start-layout-1"></script>
   </body>
 </html>

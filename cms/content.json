@@ -5,8 +5,8 @@
     "eyebrow": "EXPLORE"
   },
   "navigation": [
-    { "label": "The Making", "href": "#the-making" },
     { "label": "The Land", "href": "#the-land" },
+    { "label": "The Making", "href": "#the-making" },
     { "label": "The Journal", "href": "#journal" },
     { "label": "Visiting", "href": "#visiting" },
     { "label": "The People", "href": "#people" }
