@@ -1,0 +1,97 @@
+{
+  "site": {
+    "title": "La Fioritura di Montesano",
+    "description": "A point, a place, a story",
+    "eyebrow": "EXPLORE"
+  },
+  "navigation": [
+    { "label": "The Making", "href": "#the-making" },
+    { "label": "The Land", "href": "#the-land" },
+    { "label": "The Journal", "href": "#journal" },
+    { "label": "Visiting", "href": "#visiting" },
+    { "label": "The People", "href": "#people" }
+  ],
+  "hero": {
+    "video": "assets/hero-loop.mp4",
+    "image": "assets/hero-field.png",
+    "alt": "Rural Sicilian landscape"
+  },
+  "land": {
+    "kicker": "A point, a place, a story",
+    "title": "The Land",
+    "intro": [
+      "Some landscapes ask to be admired.",
+      "Others ask to be understood.",
+      "La Fioritura di Montesano began with a simple curiosity: what happens when we stop imposing our ideas on the land and start listening instead?",
+      "This journal follows that journey - one shaped not by certainty, but by observation, patience and respect for a landscape that has quietly carried its own wisdom for centuries."
+    ]
+  },
+  "storyBlocks": [
+    {
+      "label": "A point",
+      "image": "assets/land-portrait.png",
+      "alt": "Montesano land with olive trees",
+      "paragraphs": [
+        "Every story begins somewhere.",
+        "Ours began with a single turn onto an unassuming country road in southeastern Sicily.",
+        "There was no plan, no vision of what this place could become. Only an unexpected feeling that this forgotten landscape still had something to teach us.",
+        "Some places impress you.",
+        "Others change the direction you're walking."
+      ]
+    },
+    {
+      "label": "A place",
+      "image": "assets/road-portrait.png",
+      "alt": "A quiet country road in southeastern Sicily",
+      "paragraphs": [
+        "Montesano lies within the rural district of San Giacomo, between Modica and Noto.",
+        "Dry stone walls divide the fields just as they have for generations. Ancient olive and carob trees continue to mark forgotten boundaries, while wild grasses, native flowers and seasonal rhythms remind us that nature has never truly left.",
+        "This is not untouched wilderness.",
+        "It is a cultural landscape where people and nature have shaped one another for hundreds of years.",
+        "Much of that knowledge is still here, waiting to be recognised."
+      ]
+    },
+    {
+      "label": "A story",
+      "image": "assets/walls-landscape.png",
+      "alt": "Dry stone walls and open land",
+      "paragraphs": [
+        "What began as the discovery of a place gradually became a shared purpose.",
+        "Our mission is simple.",
+        "To help the original flora and fauna flourish once again while creating a place where people naturally come together.",
+        "A place to stay, to share meals, to make music, to exhibit art, to exchange ideas, to record films, to slow down long enough to reconnect - with nature, with each other and perhaps with themselves.",
+        "We believe that a thriving landscape and meaningful human encounters belong together.",
+        "When both flourish, the project succeeds."
+      ]
+    }
+  ],
+  "making": {
+    "id": "the-making",
+    "kicker": "Shaping a place without losing its soul.",
+    "title": "The Making",
+    "intro": "A place like this does not ask to be reinvented. It asks to be understood.\nWhat follows is a gradual process of restoring, shaping and adding - always beginning with what is already here.",
+    "gallery": [
+      { "image": "assets/making-olive.png", "alt": "Olive tree detail" },
+      { "image": "assets/making-door.png", "alt": "Rustic doorway and stone texture" },
+      { "image": "assets/making-stones.png", "alt": "Stone wall detail" },
+      { "image": "assets/making-landscape.png", "alt": "Wide Montesano landscape" }
+    ]
+  },
+  "placeholderSections": [
+    {
+      "id": "journal",
+      "title": "The Journal",
+      "text": "Notes, observations and seasonal updates from Montesano."
+    },
+    {
+      "id": "visiting",
+      "title": "Visiting",
+      "text": "A quiet invitation to arrive slowly, stay gently and understand the land on its own terms."
+    },
+    {
+      "id": "people",
+      "title": "The People",
+      "text": "The project is shaped by the people who listen, build, restore, host and return."
+    }
+  ]
+}

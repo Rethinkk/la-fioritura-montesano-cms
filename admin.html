@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CMS - La Fioritura di Montesano</title>
+    <link rel="stylesheet" href="admin.css">
+  </head>
+  <body>
+    <main class="cms-shell">
+      <header>
+        <div>
+          <p>CMS</p>
+          <h1>La Fioritura di Montesano</h1>
+        </div>
+        <a href="index.html">View site</a>
+      </header>
+
+      <form id="cms-form"></form>
+
+      <div class="actions">
+        <button type="submit" form="cms-form">Save preview</button>
+        <button type="button" id="download-json">Download JSON</button>
+        <label class="file-button">
+          Import JSON
+          <input type="file" id="import-json" accept="application/json">
+        </label>
+        <button type="button" id="reset-content">Reset</button>
+      </div>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
