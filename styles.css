@@ -189,7 +189,9 @@ body {
 }
 
 .section-pad {
-  padding: 122px clamp(28px, 8vw, 96px) 96px clamp(28px, 8vw, 96px);
+  width: var(--content-width);
+  margin: 0 auto;
+  padding: 122px 0 96px;
 }
 
 .land-card {
@@ -301,8 +303,7 @@ h2 {
 }
 
 .making__text {
-  width: var(--content-width);
-  max-width: 720px;
+  width: 100%;
   margin: 0 auto 64px;
 }
 
@@ -318,8 +319,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, minmax(260px, 1fr));
   gap: 28px;
-  width: var(--content-width);
-  max-width: 916px;
+  width: 100%;
   margin: 0 auto;
 }
 

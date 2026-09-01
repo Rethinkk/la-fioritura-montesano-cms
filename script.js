@@ -1,5 +1,5 @@
-const CONTENT_URL = "cms/content.json?v=start-layout-1";
-const STORAGE_KEY = "montesano-cms-content-v3";
+const CONTENT_URL = "cms/content.json?v=chapter-align-1";
+const STORAGE_KEY = "montesano-cms-content-v4";
 
 async function loadContent() {
   const saved = localStorage.getItem(STORAGE_KEY);
