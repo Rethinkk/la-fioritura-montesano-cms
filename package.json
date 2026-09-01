@@ -1,0 +1,9 @@
+{
+  "name": "la-fioritura-montesano-cms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static CMS website for La Fioritura di Montesano.",
+  "scripts": {
+    "start": "python3 -m http.server 4173"
+  }
+}
