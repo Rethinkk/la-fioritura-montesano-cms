@@ -1,5 +1,5 @@
-const CONTENT_URL = "cms/content.json?v=chapter-align-1";
-const STORAGE_KEY = "montesano-cms-content-v4";
+const CONTENT_URL = "cms/content.json?v=story-title-top-1";
+const STORAGE_KEY = "montesano-cms-content-v5";
 
 async function loadContent() {
   const saved = localStorage.getItem(STORAGE_KEY);
@@ -50,8 +50,8 @@ function render(content) {
         </figure>
         <div class="story-block__rule"></div>
         <div class="story-block__copy">
-          <div class="body-copy">${textParagraphs(block.paragraphs)}</div>
           <h3>${escapeHtml(block.label)}</h3>
+          <div class="body-copy">${textParagraphs(block.paragraphs)}</div>
         </div>
       </article>
     `)

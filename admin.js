@@ -1,5 +1,5 @@
-const CONTENT_URL = "cms/content.json?v=chapter-align-1";
-const STORAGE_KEY = "montesano-cms-content-v4";
+const CONTENT_URL = "cms/content.json?v=story-title-top-1";
+const STORAGE_KEY = "montesano-cms-content-v5";
 
 const form = document.getElementById("cms-form");
 let content;
