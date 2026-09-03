@@ -1,5 +1,5 @@
-const CONTENT_URL = "cms/content.json?v=making-title-top-1";
-const STORAGE_KEY = "montesano-cms-content-v6";
+const CONTENT_URL = "cms/content.json?v=making-subtitle-1";
+const STORAGE_KEY = "montesano-cms-content-v7";
 
 const form = document.getElementById("cms-form");
 let content;
